@@ -21,24 +21,24 @@ Install This Awesome Package With npm
 
 ## Usage/Examples
 
-Step 1: Wrap Your App with DisableBtnProvider
+Step 1: Wrap Your App with ReactDisableBtnProvider
 ```
 import React from 'react';
-import { DisableBtnProvider } from 'react-button-disable';
+import { ReactDisableBtnProvider } from 'react-button-disable';
 
 function App() {
     return (
-        <DisableBtnProvider>
+        <ReactDisableBtnProvider>
             {/* Your application components */}
             <MainComponent />
-        </DisableBtnProvider>
+        </ReactDisableBtnProvider>
     );
 }
 
 export default App;
 ```
 
-Step 2: Use the useDisableBtnContext Hook
+Step 2: Use the useReactDisableBtn Hook
 ## The hook provides:
 - disableBtn(btnId) : Disables the button with the given I
 - nableBtn(btnId) : Enables the button with the given ID.

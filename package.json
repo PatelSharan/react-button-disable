@@ -1,6 +1,6 @@
 {
   "name": "react-button-disable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package provides a convenient solution for disabling buttons during API calls.",
   "main": "dist/index.js",
   "scripts": {
